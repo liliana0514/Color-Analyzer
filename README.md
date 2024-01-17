@@ -5,7 +5,7 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 
 
 ## Visualization
-![Braindump-41]([https://github.com/yinyin13/lumiere/assets/148395165/aa7f0345-1a8c-4b89-a30b-348738f54d1c](https://github.com/liliana0514/Color-Analyzer/blob/main/Color%20Analyzer%201.jpg))
+![Color Analyzer 1]([https://github.com/yinyin13/lumiere/assets/148395165/aa7f0345-1a8c-4b89-a30b-348738f54d1c](https://github.com/liliana0514/Color-Analyzer/blob/main/Color%20Analyzer%201.jpg))
 
 ## The Sensor Device (Ceiling Light)
 ### Components
