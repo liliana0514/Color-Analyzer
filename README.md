@@ -47,6 +47,12 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 
 
 ## Communicated Information
+### The Sensor Device
+![Communicated Information01](https://github.com/liliana0514/Color-Analyzer/blob/main/Communicated%20Information01.jpg?raw=true)
+
+### The Display Device
+![Information Architecture](https://github.com/liliana0514/Color-Analyzer/blob/main/Information%20Architecture.jpg?raw=true)
+
 ## Information Architecture
 ![Information Architecture](https://github.com/liliana0514/Color-Analyzer/blob/main/Information%20Architecture.jpg?raw=true)
 
