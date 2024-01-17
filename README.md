@@ -39,19 +39,17 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 - Stepper gauge
 - OLED screen  SSD1316
 
-
-
 ### Communication
-1. Power Supply:
-- Connect the VCC of all components (ESP32, TCS34725, OV7670, VEML7700) to a suitable power source.
-
+1. Power Supply
+2. Ground (GND)
+3. LEDs / Stepper Gauge / OLED Screen
 
 ## Communicated Information
 ### The Sensor Device
 ![Communicated Information01](https://github.com/liliana0514/Color-Analyzer/blob/main/Communicated%20Information01.jpg?raw=true)
 
 ### The Display Device
-![Information Architecture](https://github.com/liliana0514/Color-Analyzer/blob/main/Information%20Architecture.jpg?raw=true)
+![Communicated Information02](https://github.com/liliana0514/Color-Analyzer/blob/main/Communicated%20Information02.jpg?raw=true)
 
 ## Information Architecture
 ![Information Architecture](https://github.com/liliana0514/Color-Analyzer/blob/main/Information%20Architecture.jpg?raw=true)
