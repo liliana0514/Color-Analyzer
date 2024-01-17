@@ -32,7 +32,11 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 
 ## The Display Device (Remote Control)
 ### Components
-- 
+- ESP32 microcontroller
+- LED
+- Stepper gauge
+- OLED screen  SSD1316![image](https://github.com/liliana0514/Color-Analyzer/assets/148395601/f05903c3-4662-4ec9-a959-8ad170737364)
+
 
 
 ### Communication
