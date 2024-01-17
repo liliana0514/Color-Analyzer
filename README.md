@@ -31,7 +31,8 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 6. Mode Switching:
 - Use the buttons to toggle between different modes of operation, such as capturing color data, capturing texture images, or adjusting settings.
 
-## The Display Device (Remote Control)
+## The Display Device (Wireless Display Screen)
+![Color Analyzer 3](https://github.com/liliana0514/Color-Analyzer/blob/main/Color%20Analyzer%203.jpg?raw=true)
 ### Components
 - ESP32 microcontroller
 - LED
