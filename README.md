@@ -46,5 +46,7 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 - Connect the VCC of all components (ESP32, TCS34725, OV7670, VEML7700) to a suitable power source.
 
 
-## Diagram
-![diagram 001](https://github.com/yinyin13/lumiere/assets/148395165/837b9d80-019b-4136-94b9-cce0888619b1)
+## Communicated Information
+## Information Architecture
+![Information Architecture](https://github.com/liliana0514/Color-Analyzer/blob/main/Information%20Architecture.jpg?raw=true)
+
