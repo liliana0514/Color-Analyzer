@@ -7,7 +7,8 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 ## Visualization
 ![Color Analyzer 1](https://github.com/liliana0514/Color-Analyzer/blob/main/Color%20Analyzer%201.jpg?raw=true)
 
-## The Sensor Device (Ceiling Light)
+## The Sensor Device (Color Analyzer)
+![Color Analyzer 2](https://github.com/liliana0514/Color-Analyzer/blob/main/Color%20Analyzer%202.jpg?raw=true)
 ### Components
 - ESP32 microcontroller
 - TCS34725 RGB(Color Sensor)
