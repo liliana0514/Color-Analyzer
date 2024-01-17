@@ -9,28 +9,36 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 
 ## The Sensor Device (Ceiling Light)
 ### Components
-- VEML7700 sensor
-- BME280 sensor
 - ESP32 microcontroller
-- LED * 2
+- TCS34725 RGB(Color Sensor)
+- OV7670 Camera Module(Texture Imaging Sensor)
+- VEML7700 (light sensor)
+- Buttons(switch between different modes)
+
 
 ### Communication
-1. Connect the components
-2. Program the ESP32 to read temperature and lux data from VEML7700 and BME280
-3. Program the ESP32 to send data to Display device via Bluetooth
+1. Power Supply:
+- Connect the VCC of all components (ESP32, TCS34725, OV7670, VEML7700) to a suitable power source.
+2. Ground (GND):
+- Connect the GND (Ground) of all components (ESP32, TCS34725, OV7670, VEML7700) together. 
+3. I2C Communication (ESP32, TCS34725, VEML7700)
+- Connect the SDA (data line) and SCL (clock line) pins of the ESP32 to the corresponding pins on the TCS34725 and VEML7700 for I2C communication.
+4. Camera Module (OV7670):
+- Connect the camera module to the ESP32 using appropriate pins for communication. Consider voltage level compatibility and required resistors for signal conditioning.
+5. Buttons:
+- Connect the buttons to the ESP32 for user input. Implement debounce circuits if needed to ensure reliable button presses.
+6. Mode Switching:
+- Use the buttons to toggle between different modes of operation, such as capturing color data, capturing texture images, or adjusting settings.
 
 ## The Display Device (Remote Control)
 ### Components
-- Stepper gauge
-- ESP32 microcontroller
-- LED
-- Buttons
+- 
+
 
 ### Communication
-1. Connect the components
-2. ESP32 receives data from the Sensor device
-3. Program ESP32 to control the stepper gauge to indicate brightness
-4. Program ESP32 to send adjustment commands to the Sensor device
+1. Power Supply:
+- Connect the VCC of all components (ESP32, TCS34725, OV7670, VEML7700) to a suitable power source.
+
 
 ## Diagram
 ![diagram 001](https://github.com/yinyin13/lumiere/assets/148395165/837b9d80-019b-4136-94b9-cce0888619b1)
