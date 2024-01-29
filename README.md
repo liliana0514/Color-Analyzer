@@ -10,11 +10,11 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 ## The Sensor Device (Color Analyzer)
 ![Color Analyzer 2](https://github.com/liliana0514/Color-Analyzer/blob/main/Color%20Analyzer%202.jpg?raw=true)
 ### Components
-- ESP32 microcontroller
-- TCS34725 RGB(Color Sensor)
-- OV7670 Camera Module(Texture Imaging Sensor)
-- VEML7700 (light sensor)
-- Buttons(switch between different modes)
+- SEEED STUDIO XIAO ESP32S3 SENSE
+- OV2640 Camera Module (Texture Imaging Sensor)
+- VEML7700 (Lux Sensor)
+- Button
+- MicroSD Card Module
 
 
 ### Communication
@@ -34,10 +34,11 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 ## The Display Device (Wireless Display Screen)
 ![Color Analyzer 3](https://github.com/liliana0514/Color-Analyzer/blob/main/Color%20Analyzer%203.jpg?raw=true)
 ### Components
-- ESP32 microcontroller
+- SEEED STUDIO XIAO ESP32S3 Wi-Fi/B
 - LED
-- Stepper gauge
-- OLED screen  SSD1316
+- Stepper gauge (Stepper Motor X27)
+- ST7789 TFT LCD
+- 3-pin Switch
 
 ### Communication
 1. Power Supply
