@@ -25,6 +25,10 @@ A collector equipped with a **small camera and color-sensing device**. This enab
   - Connect sensors (like the TCS34725 and VEML7700) to the ESP32 using I2C or SPI, depending on the sensor’s interface.
 - **Data Processing**:
   - Program the ESP32 to process sensor data, resize images, and package this data for Bluetooth transmission.
+- **Power Supply**:
+  - Connect the VCC of all components to a suitable power source, ensuring compatibility with their voltage requirements.
+- **Ground (GND)**:
+  - Connect the GND of all components together to ensure a common ground reference.
 
 ## The Display Device (Wireless Display Screen)
 ![Color Analyzer 3](https://github.com/liliana0514/Color-Analyzer/blob/main/Color%20Analyzer%203.jpg?raw=true)
@@ -36,9 +40,16 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 - 3-pin Switch
 
 ### Communication
-1. Power Supply
-2. Ground (GND)
-3. LEDs / Stepper Gauge / OLED Screen
+- **Bluetooth Communication Setup**:
+  - Set up the ESP32's Bluetooth module as a receiver.
+  - Implement a protocol to receive data (images, color data, and lux readings) from the Sensor Device.
+- **Display and Actuator Control**:
+  - Interface the ESP32 with the ST7789 TFT LCD via SPI for image display.
+  - Connect and program the stepper motor and LEDs to respond to received data (e.g., lux readings and color data).
+- **Power Supply**:
+  - Connect the VCC of all components to a suitable power source, ensuring compatibility with their voltage requirements.
+- **Ground (GND)**:
+  - Connect the GND of all components together to ensure a common ground reference.
 
 ## Communicated Information
 ### The Sensor Device
