@@ -37,8 +37,8 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 ### Components
 - SEEED STUDIO XIAO ESP32S3 Wi-Fi/B
 - LED
-- Stepper gauge (Stepper Motor X27)
-- ST7789 TFT LCD
+- X27 168 Stepper Motor
+- ILI9341 2.8" SPI TFT LCD
 - 3-pin Switch
 
 ### Communication
