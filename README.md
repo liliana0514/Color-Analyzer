@@ -29,8 +29,8 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 - **Ground (GND)**:
   - Connect the GND of all components together to ensure a common ground reference.
 
-### Programming**:
-- **Program to handle image capture, color detection, lux measurement, and Bluetooth data transmission.
+### **Programming**:
+- **Program to handle image capture, color detection, lux measurement, and Bluetooth data transmission**.
 
 ## The Display Device (Wireless Display Screen)
 ![Color Analyzer 3](https://github.com/liliana0514/Color-Analyzer/blob/main/Color%20Analyzer%203.jpg?raw=true)
