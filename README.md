@@ -70,7 +70,7 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 
 ## Communicated Information
 ### The Sensor Device
-![Communicated Information01](https://github.com/liliana0514/Color-Analyzer/blob/main/Communicated%20Information01.jpg?raw=true)
+!('Communicated Information01_The Display Device.jpg')
 
 ### The Display Device
 ![Communicated Information02](https://github.com/liliana0514/Color-Analyzer/blob/main/Communicated%20Information02.jpg?raw=true)
