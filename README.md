@@ -16,7 +16,6 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 - Button
 - MicroSD Card Module
 
-
 ### Communication
 - **Bluetooth Communication Setup**:
   - Configure the ESP32's Bluetooth module as a Bluetooth transmitter.
@@ -29,6 +28,9 @@ A collector equipped with a **small camera and color-sensing device**. This enab
   - Connect the VCC of all components to a suitable power source, ensuring compatibility with their voltage requirements.
 - **Ground (GND)**:
   - Connect the GND of all components together to ensure a common ground reference.
+
+### Programming**:
+- **Program to handle image capture, color detection, lux measurement, and Bluetooth data transmission.
 
 ## The Display Device (Wireless Display Screen)
 ![Color Analyzer 3](https://github.com/liliana0514/Color-Analyzer/blob/main/Color%20Analyzer%203.jpg?raw=true)
@@ -51,7 +53,7 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 - **Ground (GND)**:
   - Connect the GND of all components together to ensure a common ground reference.
  
-### General Connectivity
+### General Connectivity**:
 - **Bluetooth Communication:
   - Set up ESP32S3 SENSE to transmit image data, RGB values, and lux readings over Bluetooth.
   - Configure ESP32S3 Wi-Fi/B to receive this data and process it accordingly.
