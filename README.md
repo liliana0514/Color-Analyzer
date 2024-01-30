@@ -63,6 +63,11 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 ### Programming:
 - Program to receive Bluetooth data, control the stepper motor, update LEDs, and display images and RGB values on the LCD.
 
+### Testing and Validation:
+- Test the Bluetooth communication to ensure data is accurately sent and received.
+- Validate the functionality of the stepper motor and LEDs based on the received data.
+- Check the display quality and responsiveness of the ST7789 TFT LCD.
+
 ## Communicated Information
 ### The Sensor Device
 ![Communicated Information01](https://github.com/liliana0514/Color-Analyzer/blob/main/Communicated%20Information01.jpg?raw=true)
