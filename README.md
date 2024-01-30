@@ -13,7 +13,7 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 - SEEED STUDIO XIAO ESP32S3 SENSE
 - OV2640 Camera Module (Texture Imaging Sensor)
 - VEML7700 (Lux Sensor)
-- Button
+- Button(6x6mm)
 - MicroSD Card Module
 
 ### Communication
