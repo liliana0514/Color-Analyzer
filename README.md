@@ -50,6 +50,13 @@ A collector equipped with a **small camera and color-sensing device**. This enab
   - Connect the VCC of all components to a suitable power source, ensuring compatibility with their voltage requirements.
 - **Ground (GND)**:
   - Connect the GND of all components together to ensure a common ground reference.
+ 
+### General Connectivity
+- **Bluetooth Communication:
+  - Set up ESP32S3 SENSE to transmit image data, RGB values, and lux readings over Bluetooth.
+  - Configure ESP32S3 Wi-Fi/B to receive this data and process it accordingly.
+- **SPI Connection for ST7789 TFT LCD:
+  - Use SPI pins on ESP32S3 Wi-Fi/B to interface with the LCD.
 
 ## Communicated Information
 ### The Sensor Device
