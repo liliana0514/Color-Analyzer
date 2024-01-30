@@ -30,7 +30,7 @@ A collector equipped with a **small camera and color-sensing device**. This enab
   - Connect the GND of all components together to ensure a common ground reference.
 
 ### **Programming**:
-- **Program to handle image capture, color detection, lux measurement, and Bluetooth data transmission**.
+- Program to handle image capture, color detection, lux measurement, and Bluetooth data transmission.
 
 ## The Display Device (Wireless Display Screen)
 ![Color Analyzer 3](https://github.com/liliana0514/Color-Analyzer/blob/main/Color%20Analyzer%203.jpg?raw=true)
@@ -53,12 +53,15 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 - **Ground (GND)**:
   - Connect the GND of all components together to ensure a common ground reference.
  
-### General Connectivity**:
-- **Bluetooth Communication:
+### General Connectivity:
+- **Bluetooth Communication**:
   - Set up ESP32S3 SENSE to transmit image data, RGB values, and lux readings over Bluetooth.
   - Configure ESP32S3 Wi-Fi/B to receive this data and process it accordingly.
-- **SPI Connection for ST7789 TFT LCD:
+- **SPI Connection for ST7789 TFT LCD**:
   - Use SPI pins on ESP32S3 Wi-Fi/B to interface with the LCD.
+
+### Programming:
+- Program to receive Bluetooth data, control the stepper motor, update LEDs, and display images and RGB values on the LCD.
 
 ## Communicated Information
 ### The Sensor Device
