@@ -21,7 +21,7 @@ A collector equipped with a **small camera and color-sensing device**. This enab
   - Configure the ESP32's Bluetooth module as a Bluetooth transmitter.
   - Implement a protocol to send captured images, color data (RGB), and lux readings.
 - **Sensor Integration**:
-  - Connect sensors (like the TCS34725 and VEML7700) to the ESP32 using I2C or SPI, depending on the sensor’s interface.
+  - Connect VEML7700 to the ESP32 using I2C or SPI, depending on the sensor’s interface.
 - **Data Processing**:
   - Program the ESP32 to process sensor data, resize images, and package this data for Bluetooth transmission.
 - **Power Supply**:
@@ -44,9 +44,9 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 ### Communication
 - **Bluetooth Communication Setup**:
   - Set up the ESP32's Bluetooth module as a receiver.
-  - Implement a protocol to receive data (images, color data, and lux readings) from the Sensor Device.
+  - Implement a protocol to receive data (images and lux readings) from the Sensor Device.
 - **Display and Actuator Control**:
-  - Interface the ESP32 with the ST7789 TFT LCD via SPI for image display.
+  - Interface the ESP32 with the ILI9341 2.8" SPI TFT LCD via SPI for image display.
   - Connect and program the stepper motor and LEDs to respond to received data (e.g., lux readings and color data).
 - **Power Supply**:
   - Connect the VCC of all components to a suitable power source, ensuring compatibility with their voltage requirements.
@@ -55,7 +55,7 @@ A collector equipped with a **small camera and color-sensing device**. This enab
  
 ### General Connectivity:
 - **Bluetooth Communication**:
-  - Set up ESP32S3 SENSE to transmit image data, RGB values, and lux readings over Bluetooth.
+  - Set up ESP32S3 SENSE to transmit image data and lux readings over Bluetooth.
   - Configure ESP32S3 Wi-Fi/B to receive this data and process it accordingly.
 - **SPI Connection for ST7789 TFT LCD**:
   - Use SPI pins on ESP32S3 Wi-Fi/B to interface with the LCD.
