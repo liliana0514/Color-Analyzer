@@ -33,7 +33,7 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 - Program to handle image capture, color detection, lux measurement, and Bluetooth data transmission.
 
 ## The Display Device (Wireless Display Screen)
-![Color Analyzer 3](https://github.com/liliana0514/Color-Analyzer/blob/main/Color%20Analyzer%203.jpg?raw=true)
+![The Display Device](https://github.com/liliana0514/Color-Analyzer/blob/main/The%20Display%20Device.jpg?raw=true)
 ### Components
 - SEEED STUDIO XIAO ESP32S3 Wi-Fi/B
 - LED
