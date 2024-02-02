@@ -8,7 +8,7 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 ![Color Analyzer 1](https://github.com/liliana0514/Color-Analyzer/blob/main/Color%20Analyzer%201.jpg?raw=true)
 
 ## The Sensor Device (Color Analyzer)
-![Color Analyzer 2](https://github.com/liliana0514/Color-Analyzer/blob/main/Color%20Analyzer%202.jpg?raw=true)
+![The Sensor Device](https://github.com/liliana0514/Color-Analyzer/blob/main/Color%20Analyzer%202.jpg?raw=true)
 ### Components
 - SEEED STUDIO XIAO ESP32S3 SENSE
 - OV2640 Camera Module (Texture Imaging Sensor)
