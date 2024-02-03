@@ -38,7 +38,7 @@ A collector equipped with a **small camera and color-sensing device**. This enab
 - SEEED STUDIO XIAO ESP32S3 Wi-Fi/B
 - LED
 - X27 168 Stepper Motor
-- ILI9341 2.8" SPI TFT LCD
+- 2.2 Inch ILI9341 SPI TFT LCD
 - 3-pin Switch
 
 ### Communication
