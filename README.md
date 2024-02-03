@@ -46,7 +46,7 @@ A collector equipped with a **small camera and color-sensing device**. This enab
   - Set up the ESP32's Bluetooth module as a receiver.
   - Implement a protocol to receive data (images and lux readings) from the Sensor Device.
 - **Display and Actuator Control**:
-  - Interface the ESP32 with the ILI9341 2.8" SPI TFT LCD via SPI for image display.
+  - Interface the ESP32 with the 2.2 Inch ILI9341 SPI TFT LCD via SPI for image display.
   - Connect and program the stepper motor and LEDs to respond to received data (e.g., lux readings and color data).
 - **Power Supply**:
   - Connect the VCC of all components to a suitable power source, ensuring compatibility with their voltage requirements.
